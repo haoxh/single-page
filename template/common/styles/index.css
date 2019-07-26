@@ -1,0 +1,13 @@
+html,
+body {
+  -webkit-text-size-adjust: none;
+}
+a {
+  text-decoration-line: none;
+  font-style: normal;
+  outline:none;
+  -moz-outline-style:none;
+  -webkit-tap-highlight-color: transparent; 
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+}
