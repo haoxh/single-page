@@ -1,7 +1,7 @@
 {
   "name": "@haoxh/single-page",
-  "version": "1.0.1",
-  "description": "sigle page",
+  "version": "0.0.1",
+  "description": "具有单页面功能的多页面应用",
   "main": "./client/module.js",
   "scripts": {
     "build": "node scripts/build.js",
