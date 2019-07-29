@@ -12,6 +12,9 @@
       "pre-commit": "npm run eslint"
     }
   },
+  "bin": {
+    "singlePageInit":"node init.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/haoxh/single-page.git"
