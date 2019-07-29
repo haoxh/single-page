@@ -13,7 +13,7 @@
     }
   },
   "bin": {
-    "singlePageInit":"./init.js"
+    "singlePageInit":"./bin/init.js"
   },
   "repository": {
     "type": "git",
