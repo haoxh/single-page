@@ -1,4 +1,9 @@
-var ncp = require('ncp').ncp;
+#!/usr/bin/env node
+
+"use strict";
+require("v8-compile-cache");
+
+const ncp = require('ncp').ncp;
 const { exec } = require('child_process');
 
 ncp('./template/', `${process.cwd()}/src/`, function (err) {

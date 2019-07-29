@@ -1,6 +1,6 @@
 {
   "name": "@haoxh/single-page",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "sigle page",
   "main": "./client/module.js",
   "scripts": {
@@ -13,7 +13,7 @@
     }
   },
   "bin": {
-    "singlePageInit":"node init.js"
+    "singlePageInit":"./init.js"
   },
   "repository": {
     "type": "git",
@@ -50,7 +50,8 @@
     "rollup-plugin-babel": "^4.3.3",
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-uglify": "^6.0.2"
+    "rollup-plugin-uglify": "^6.0.2",
+    "v8-compile-cache": "^2.0.3"
   },
-  "files": ["client","src","template","tpl_config","webpack","init.js"]
+  "files": ["client","src","template","tpl_config","webpack","bin"]
 }
