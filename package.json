@@ -1,8 +1,8 @@
 {
-  "name": "single-page",
+  "name": "@haoxh/single-page",
   "version": "1.0.0",
   "description": "sigle page",
-  "main": "index.js",
+  "main": "./client/module.js",
   "scripts": {
     "build": "node scripts/build.js",
     "eslint": "npx eslint src --ext .js"
@@ -51,5 +51,6 @@
     "rollup-plugin-commonjs": "^10.0.1",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-uglify": "^6.0.2"
-  }
+  },
+  "files": ["client","src","template","tpl_config","webpack","init.js"]
 }
