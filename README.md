@@ -37,7 +37,7 @@ node scripts/build.js
 
 <pre style="color:#444">
 
-├─ config wepack 配置 工具源码
+├─ config webpack 配置 工具源码
 ├─ .router.js 自动生成的路由配置文件
 ├─ src 工作区域
 │   ├─  common 公共js文件
@@ -45,12 +45,12 @@ node scripts/build.js
 │   │   │     ├─ index.js 入口文件
 │   │   │        ...
 │   │   ├─ style
-│   │         ├─ index.css
+│   │         ├─ index.css 每个页面都会引入
 │   │            ...
 │   ├─ pages 页面
 │   │   ├─ home
 │   │       ├─ home.html 需要编写的html
-│   │       ├─ index.css (css/less)
+│   │       ├─ index.css (css/less) 只会引入到对应的页面
 │   │       ├─index_page.js 路由的入口文件
 │   │         ...
 </pre>
